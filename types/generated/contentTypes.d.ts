@@ -812,6 +812,12 @@ export interface ApiSiteSite extends Struct.CollectionTypeSchema {
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
+    raceReadyGUID: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     relatedSites: Schema.Attribute.Relation<'manyToMany', 'api::site.site'>;
     siteTitle: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{

@@ -188,6 +188,14 @@
       },
       "component": "shared.hero-button",
       "repeatable": true
+    },
+    "raceReadyGUID": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
