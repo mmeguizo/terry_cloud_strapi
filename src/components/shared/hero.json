@@ -8,6 +8,9 @@
     "background": {
       "type": "string"
     },
+    "backgroundVideo": {
+      "type": "string"
+    },
     "eventDate": {
       "type": "date"
     },
